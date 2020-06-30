@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    font-family: 'Lato', sans-serif;
+
+}
+.section_1,.section_2,.section_3,.section_4{
+    height:500px;
+    padding-bottom:150px;
+}
+.section_1{
+    background:url(img/section1.png)no-repeat;
+}
+.section_2{
+    background:url(img/goal.png)no-repeat;
+    background-position: right;
+}
+.section_4{
+    background:url(img/exp.png)no-repeat;
+    background-position: center left;
+}
+.half_width{
+    width:40%;
+    margin-left:5%;
+    padding-left:2%;
+    float:left;
+}
+.half_width img{
+    width:100%;
+}
+h1{
+    font-size:50px;
+    color:#404040;
+}
+h1.ghar_tera{
+    text-align:center;
+}
+h3{
+    font-size:25px;
+    color:orangered;
+}
+.different_color{
+    color:orangered;
+}
+p{
+    font-size:16px;
+    columns: #404040;
+}
+a{
+    text-decoration:none;
+}
+.section_1 a,.section_2 a,.section_4 a,.same_class_link{
+    display:inline-block;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:white;
+    padding:10px 20px;
+    border-radius:7px;
+    margin-top:10px;
+    background-image:linear-gradient(45deg,orange,red);
+}
+.section_3 a.jhankar_vai_link{
+    color:orangered;
+}
+a:hover{
+    overflow:hidden;
+    background-image: linear-gradient(45deg,cyan,yellow);
+    color:maroon;
+    transform:scale(1.1);
+    transition:all ease 0.3s;
+}
+
+.section_4 .half_width{
+    height:80%;
+    background:#f7f7f7;
+    box-shadow:5px 5px 20px grey;
+}
+#different_1{
+    border-left:7px solid;
+    border-image: linear-gradient(180deg,rgb(255, 123, 0),maroon);
+    border-image-slice:1;
+}
+#different_2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    font-size:12px;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
